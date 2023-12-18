@@ -7,65 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="./images/avatar.png" />
     <link rel="stylesheet" type="text/css" href="./css/termos.css">
-    <style>
-        #loading-overlay {
-            display: flex;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.7);
-            z-index: 9999;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .loading-image {
-            width: 200px;
-            height: 200px;
-            opacity: 0.8;
-            animation: flip 4s ease-in-out forwards; /* Added "forwards" to keep the final state of the animation */
-        }
-
-        .loading-text {
-            color: white;
-            font-size: 18px;
-            opacity: 0.5;
-            margin-top: 10px;
-        }
-
-        @keyframes flip {
-            0% {
-                transform: perspective(400px) rotateY(0);
-            }
-
-            25% {
-                transform: perspective(400px) rotateY(360deg);
-            }
-
-            50% {
-                transform: perspective(400px) rotateY(720deg);
-            }
-
-            75% {
-                transform: perspective(400px) rotateY(1080deg);
-            }
-
-            100% {
-                transform: perspective(400px) rotateY(1440deg);
-            }
-        }
-    </style>
 </head>
 
 <body>
 
-    <div id="loading-overlay">
-        <img src="./images/loading.png" alt="Loading" class="loading-image" id="loading-image">
-        <div class="loading-text">Carregando...</div>
-    </div>
 
     <section>
         <h2>Termos:</h2>
@@ -82,7 +27,7 @@
         <p>
             Usar funcionalidades como por exemplo: (/say) para enviar mensagens xingando membros ou fazendo algo do
             gênero, também perderá o acesso a todas as minhas funcionalidades. Caso veja um usuário usando as moedas
-            da @Deleted User para trocas de nitro ou esteja vendendo as moedas da API por dinheiro real ou fazendo algo
+            da @Nya para trocas de nitro ou esteja vendendo as moedas da API por dinheiro real ou fazendo algo
             do gênero, também perderá o acesso a todas as minhas funcionalidades.
         </p>
     </section>
@@ -95,17 +40,6 @@
             nossa aplicação.
         </p>
     </section>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var loadingImage = document.getElementById("loading-image");
-            
-            loadingImage.addEventListener("animationend", function () {
-                var loadingOverlay = document.getElementById("loading-overlay");
-                loadingOverlay.style.display = "none";
-            });
-        });
-    </script>
 
 </body>
 
