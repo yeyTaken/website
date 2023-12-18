@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^discord$ discord.html [NC,L]
+RewriteRule ^invite$ invite.html [NC,L]
+RewriteRule ^instagram$ instagram.html [NC,L]
+RewriteRule ^termos$ termos.html [NC,L]
+RewriteRule ^404$ 404.html [NC,L]
+RewriteRule ^dashboard$ dashboard.html [NC,L]
