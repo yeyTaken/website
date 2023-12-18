@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url=">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/avatar.png" /> <!-- Corrigido o atributo 'src' para 'href' -->
+    <title>Invite</title>
+</head>
+<body>
+    <p>Se o redirecionamento não funcionar, clique <a href="">aqui</a>.</p>
+</body>
+</html>

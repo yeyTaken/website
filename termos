@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/avatar.png" /> <!-- Corrigido o atributo 'src' para 'href' -->
+    <link rel="stylesheet" type="text/css" href="./css/termos.css">
+    <title>Nyaaa! - Termos</title>
+</head>
+
+<body>
+
+    <section>
+        <h2>Termos:</h2>
+        <p>
+            Para que você possa usar meus comandos, eu irei pegar algumas informações sobre você, como ID, username,
+            servidores e avatar, e salvar em um banco de dados. Não se preocupe, não enviaremos e nem venderemos essas
+            informações para terceiros. Resumindo: Você tem acesso a comandos e afins.
+        </p>
+        <p>
+            Nosso bot não aceita links/imagens/vídeos ou algo do gênero que envolva (pornografia), você tomará ban com
+            seu ID, tendo em conta que não poderá usar minhas funcionalidades! Tentar abusar de bugs é proibido e você
+            poderá perder o acesso a todas as minhas funcionalidades!
+        </p>
+        <p>
+            Usar funcionalidades como por exemplo: (/say) para enviar mensagens xingando membros ou fazendo algo do
+            gênero, também perderá o acesso a todas as minhas funcionalidades. Caso veja um usuário usando as moedas
+            da @Deleted User para trocas de nitro ou esteja vendendo as moedas da API por dinheiro real ou fazendo algo
+            do gênero, também perderá o acesso a todas as minhas funcionalidades.
+        </p>
+    </section>
+
+    <section>
+        <h2>Política e Privacidade:</h2>
+        <p>
+            A aplicação poderá acessar algumas possíveis informações fornecidas pela própria API do Discord, isso não
+            interferirá em nenhuma informação pessoal do usuário. Para entender melhor, leia os termos e privacidade de
+            nossa aplicação.
+        </p>
+    </section>
+
+
+</body>
+
+</html>
